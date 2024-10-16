@@ -17,7 +17,7 @@ public class LibraryManagementSystem {
             System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine(); // To handle the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
